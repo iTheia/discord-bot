@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "SET NODE_ENV=dev&nodemon -r dotenv/config index.js","start": "SET NODE_ENV=dev&nodemon -r dotenv/config index.js",
+    "start": "SET NODE_ENV=dev&nodemon -r dotenv/config index.js",
     "bot": "SET NODE_ENV=dev&nodemon -r dotenv/config bot.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ascii-table": "0.0.9",
+    "axios": "^0.19.2",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "discord.js": "^12.2.0",
